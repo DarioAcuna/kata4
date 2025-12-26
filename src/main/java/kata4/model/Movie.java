@@ -1,4 +1,4 @@
 package kata4.model;
 
-public class Movie {
+public record Movie (String title, int year, int duration) {
 }
